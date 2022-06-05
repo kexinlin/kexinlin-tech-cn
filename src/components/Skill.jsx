@@ -9,7 +9,7 @@ export default function Skill() {
 
       <div className="md:w-8/12 w-10/12 mx-auto">
         <SkillSection
-          title="⌨️ 编程语言"
+          title="⌨️ 语言"
           skills={[
             { name: "Python", icon: "fab fa-python fa-3x" },
             { name: "Javascript", icon: "fab fa-js-square fa-3x" },
@@ -23,30 +23,30 @@ export default function Skill() {
         />
 
         <SkillSection
-          title="📚 库和框架"
+          title="📚 库/框架"
           skills={[
             { name: "React", icon: "fab fa-react fa-3x" },
             { name: "ExpressJS", icon: "fas fa-server fa-3x" },
+            { name: "Spring", icon: "fa fa-leaf fa-3x" },
+            { name: "Flask", icon: "fas fa-pepper-hot fa-3x" },
             { name: "Mongoose", icon: "fas fa-sitemap fa-3x" },
             { name: "jQuery", icon: "fas fa-copyright fa-3x" },
             { name: "NumPy", icon: "fas fa-table fa-3x" },
             { name: "Pandas", icon: "fas fa-file-csv fa-3x" },
-            { name: "Bootstrap", icon: "fab fa-bootstrap fa-3x" },
-            { name: "EJS", icon: "fas fa-file-code fa-3x" },
           ]}
         />
 
         <SkillSection
-          title="🔨 相关工具"
+          title="🔨 工具"
           skills={[
             { name: "Git", icon: "fab fa-git-square fa-3x" },
-            { name: "Unix Shell", icon: "fas fa-terminal fa-3x" },
+            { name: "Shell", icon: "fas fa-terminal fa-3x" },
+            { name: "Docker", icon: "fab fa-docker fa-3x" },
+            { name: "AWS", icon: "fab fa-aws fa-3x" },
             { name: "LaTex", icon: "fas fa-subscript fa-3x" },
             { name: "Heroku", icon: "fas fa-code-branch fa-3x" },
-            { name: "MongoDB Atlas", icon: "fas fa-cloud fa-3x" },
             { name: "Tableau", icon: "far fa-chart-bar fa-3x" },
             { name: "Figma", icon: "fab fa-figma fa-3x" },
-            { name: "Axure", icon: "far fa-object-group fa-3x" },
           ]}
         />
 

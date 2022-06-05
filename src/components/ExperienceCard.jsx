@@ -1,4 +1,4 @@
-import { LazyLoadImage } from 'react-lazy-load-image-component';
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export default function EducationCard(props) {
   return (
@@ -11,12 +11,14 @@ export default function EducationCard(props) {
       <div className="md:p-8 md:text-left space-y-2">
         <p className="text-lg font-semibold">{props.title}</p>
         <div>
-        <p className="text-gray-400 my-1 italic">{props.role}</p>
+          <p className="text-gray-400 my-1 italic">{props.role}</p>
           <p className="text-gray-400 my-1 ">{props.time}</p>
           {props.descriptions &&
-            props.descriptions.map((des) => {
+            props.descriptions.map((des, index) => {
               return (
-                <p class="text-gray-500 text-base text-left">{"· " + des}</p>
+                <p key={index} className="text-gray-500 text-base text-left">
+                  {"· " + des}
+                </p>
               );
             })}
         </div>

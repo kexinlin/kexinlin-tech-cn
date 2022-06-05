@@ -8,7 +8,7 @@ export default function AboutMe() {
           <LazyLoadImage
             className="w-52 h-52 rounded-full mx-auto"
             effect={"blur"}
-            src={"profile-photo2.png"}
+            src={"profile-photo.png"}
             alt={"my profile photo"}
           />
         </div>
@@ -21,10 +21,13 @@ export default function AboutMe() {
         {[
           "我是XX大学计算机科学系的大四学生，即将毕业于202X年6月。",
           "我的爱好是将想法转换成代码。",
-          "我也喜欢爵士舞，唱歌和做视频。💕",
+          "我也喜欢爵士舞，唱歌和吉他。💕",
         ].map((item, index) => {
           return (
-            <p className="w-full md:w-2/3 mr-auto ml-auto text-gray-500 text-base">
+            <p
+              key={index}
+              className="w-full md:w-2/3 mr-auto ml-auto text-gray-500 text-base"
+            >
               {item}
             </p>
           );

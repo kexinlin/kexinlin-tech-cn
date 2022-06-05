@@ -13,7 +13,17 @@ export default function Experience() {
       <div className="md:w-8/12 w-10/12 mx-auto">
         {[
           {
-            img: "Tencent.jpg",
+            img: "experience1.jpg",
+            role: "XX实习生 - XX组",
+            title: "XX有限公司",
+            time: "20XX年X月 - 20XX年X月",
+            descriptions: [
+              "调研了XX的优势和具体业务需求，用XX进行了XX系统的设计和搭建，实现了XX。",
+              "基于XX搭建了XX，涉及XX、XX、XX技术栈，将系统的XX提升百分之XX。",
+            ],
+          },
+          {
+            img: "experience2.jpg",
             role: "XX实习生 - XX组",
             title: "XX有限公司",
             time: "20XX年X月 - 20XX年X月",
@@ -24,7 +34,8 @@ export default function Experience() {
           },
         ].map((item, index) => {
           return (
-            <Experience
+            <ExperienceCard
+              key={index}
               img={item.img}
               role={item.role}
               title={item.title}
@@ -33,17 +44,6 @@ export default function Experience() {
             />
           );
         })}
-
-        <ExperienceCard
-          img="Tencent.jpg"
-          role="XX实习生 - XX组"
-          title="XX有限公司"
-          time="20XX年X月 - 20XX年X月"
-          descriptions={[
-            "调研了XX的优势和具体业务需求，用XX进行了XX系统的设计和搭建，实现了XX。",
-            "基于XX搭建了XX，涉及XX、XX、XX技术栈，将系统的XX提升百分之XX。",
-          ]}
-        />
       </div>
     </div>
   );

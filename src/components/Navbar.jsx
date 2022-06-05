@@ -56,7 +56,7 @@ export default function Navbar() {
             <li className="nav-item">
               <a
                 className="px-3 py-2 flex items-center text-base uppercase font-bold text-gray-800 hover:text-gray-600"
-                href="Kexin_Lin_Resume_CN.pdf"
+                href="My_Resume.pdf"
                 target="_blank"
               >
                 <span className="ml-2">📑 我的简历</span>

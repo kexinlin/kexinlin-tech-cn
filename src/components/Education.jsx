@@ -12,7 +12,7 @@ export default function Education() {
 
       <div className="md:w-8/12 w-10/12 mx-auto">
         <EducationCard
-          img="UofT.jpg"
+          img="education.jpg"
           title="XX大学"
           time="20XX年9月 - 20XX年6月"
           p1="我是XX大学计算机专业的大四学生，预计将于202X年6月获得荣誉理学学士学位。"
