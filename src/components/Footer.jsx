@@ -6,7 +6,7 @@ export default function Footer() {
           <div className="grid grid-cols-3 mb-10">
             <a
               className="font-bold"
-              href="https://github.com/kexinlin"
+              href="https://github.com/your_name"
               target="_blank"
               rel="noreferrer"
             >
@@ -14,7 +14,7 @@ export default function Footer() {
             </a>
             <a
               className="font-bold"
-              href="https://www.linkedin.com/in/linkexin"
+              href="https://www.linkedin.com/your_name"
               target="_blank"
               rel="noreferrer"
             >
@@ -24,7 +24,7 @@ export default function Footer() {
               <i className="fas fa-file-code"></i> Website
             </a>
           </div>
-          <p>© 2021 Kexin Lin.</p>
+          <p>© 2022 Lili.</p>
         </div>
       </div>
     </footer>

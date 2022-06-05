@@ -9,7 +9,7 @@ export default function Contact() {
         欢迎加微信跟我联系喔 :)
       </p>
       <div className="bg-yellow-500 w-64 mx-auto hover:shadow-lg focus:outline-none text-white font-bold py-3 px-10 rounded-full no-underline ">
-        我的微信号：Lit_331
+        我的微信号：xxx
       </div>
     </div>
   );

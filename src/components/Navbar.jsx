@@ -15,7 +15,7 @@ export default function Navbar() {
             className="text-lg font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-gray-800"
             href="/"
           >
-            👋 哈啰，我是可欣
+            👋 哈喽，我是粒粒
           </a>
         </div>
         <div

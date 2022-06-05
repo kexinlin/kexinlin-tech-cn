@@ -16,17 +16,19 @@ export default function AboutMe() {
           👋 你好呀！
         </h2>
         <p className="font-rubik font-semibold text-xl text-center text-gray-800 m-2">
-          我是林可欣
+          我是粒粒
         </p>
-        <p className="w-full md:w-2/3 mr-auto ml-auto text-gray-500 text-base">
-          我是多伦多大学计算机科学系的大四学生，即将毕业于2021年6月。
-        </p>
-        <p className="w-full md:w-2/3 mr-auto ml-auto text-gray-500 text-base">
-          我的爱好是将想法转换成代码，我喜欢做前端。
-        </p>
-        <p className="w-full md:w-2/3 mr-auto ml-auto text-gray-500 text-base">
-          我也喜欢爵士舞，吉他和唱歌。💕
-        </p>
+        {[
+          "我是XX大学计算机科学系的大四学生，即将毕业于202X年6月。",
+          "我的爱好是将想法转换成代码。",
+          "我也喜欢爵士舞，唱歌和做视频。💕",
+        ].map((item, index) => {
+          return (
+            <p className="w-full md:w-2/3 mr-auto ml-auto text-gray-500 text-base">
+              {item}
+            </p>
+          );
+        })}
       </div>
     </div>
   );
