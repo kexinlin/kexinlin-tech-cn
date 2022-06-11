@@ -15,7 +15,7 @@ export default function Education() {
           img="education.jpg"
           title="XX大学"
           time="20XX年9月 - 20XX年6月"
-          p1="我是XX大学计算机专业的大四学生，预计将于202X年6月获得荣誉理学学士学位。"
+          p1="我是XX大学计算机专业的大四学生，预计将于20XX年6月获得荣誉理学学士学位。"
           p2="我当前的总绩点是 X.XX/4.00，在校期间多次获得XXX奖学金。"
         />
       </div>

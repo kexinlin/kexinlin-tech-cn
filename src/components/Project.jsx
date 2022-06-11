@@ -14,7 +14,7 @@ export default function Project() {
         {[
           {
             img: "project1.jpg",
-            title: "雪上技巧训练视频指标提取平台",
+            title: "XX训练视频指标提取平台",
             time: "20XX年X月 - 20XX年X月",
             descriptions: [
               "领导团队模拟软件产品精益创业过程，组织与XXX合作伙伴的会议。产出的SaaS产品基于计算机视觉算法从运动训练视频中提取关键身体指标，为训练提供数据洞察。",

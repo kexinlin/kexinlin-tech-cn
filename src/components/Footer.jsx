@@ -24,7 +24,7 @@ export default function Footer() {
               <i className="fas fa-file-code"></i> Website
             </a>
           </div>
-          <p>© 2022 Lili.</p>
+          <p>© 2022 林粒粒呀.</p>
         </div>
       </div>
     </footer>
